@@ -184,13 +184,119 @@ flex-direction: column;
     margin-right: 35%;
 }
     
-   
+.icon__menu{
+    display: none;
+}   
+.content__menu{
+    display: none;
+}
     
     
 
 
 
 .contacto {
-    display: flex;
+ justify-content: center;
+ margin-top: 2rem;
   
+}
+.img_cont{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .navbar{
+        display: none;
+    }
+    .title_experiencia{
+        margin-top: 4rem;
+    }
+    .ico_habi{
+        display: flex;
+        flex-direction: column;
+    }
+   
+
+    .icon__menu{
+        position: relative;
+        z-index: 60001;
+    
+        display: flex;
+        justify-content: start;
+    }
+    .content_expe{
+        align-content: flex-start;
+        padding-left: 0px;
+        margin-left: 0;
+        margin-right: 0
+        ;
+    }
+    
+    .icon__menu img {
+        margin: 20px;
+        border-radius: 12px;
+        width: 40px;
+        cursor: pointer;
+        background-color: blue;
+        position: fixed;
+        
+    }
+
+    .content__menu {
+        background-color: white;
+        min-width: 50%;
+        height: 100vh;
+        position: fixed;
+        transition: transform 0.5s;
+        z-index: 60000;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .active {
+        transform: translateX(-100%);
+    }
+    
+    .content__menu ul {
+        list-style: none; 
+        background-color: #ffffff;
+    } 
+    
+    .content__menu ul li {
+        text-decoration: none;
+        background-color: #ffffff;
+        margin: 30px 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .content__menu ul li a {
+        text-decoration: none;
+        background-color: #ffffff;
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+    .content__menu ul li:hover {
+        background-color: rgb(113, 99, 241);
+        text-decoration: none;
+    } 
+    .about{
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 2rem;
+        margin-right: 0;
+        
+        
+        
+        
+        
+    
+        
+        
+    
+    }
 }

@@ -16,15 +16,29 @@
              <nav class="navbar">
                 <ul class="menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Acerca de mi</a></li>
-                    <li><a href="#">Mis habilidades</a></li>
-                    <li><a href="#">Experiencia</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#acerca-de">Acerca de mi</a></li>
+                    <li><a href="#habilidades">Mis habilidades</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
 
 
              </nav>   
+             <div class="icon__menu">
+                <img src="/Íconos/hamburguesa.webp" alt="" id="icon__menu">
+            </div>
+
+            <div class="content__menu active" id="content__menu">
+                <ul>
+                    <li><a href="#info">Home</a></li>
+                    <li><a href="#acerca-de">Acerca de mi</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
 
         </header>
         
@@ -47,7 +61,7 @@
 
     </div>
 
-<div class="abouts">
+<div class="abouts" id="acerca-de">
     <div class="about">
         <div class="litle_about">
         <h2>Acerca de mi</h2> </div>    
@@ -57,7 +71,7 @@
 
     
 
-    <div class="habilidades">
+    <div class="habilidades" id="habilidadesom">
         <div class="litle_habilidades">
              <h2>Mis habilidades</h2>
          </div>
@@ -80,7 +94,7 @@
      </div>
     </div>  
         
-<div class="experiencia">
+<div class="experiencia" id="experience">
         <div class="title_experiencia">
             <h2>Experiencia</h2>
         </div>
@@ -106,7 +120,7 @@
 
 </div>
 </div>
-<div class="portafolio">
+<div class="portafolio" id="portafolio">
     <div class="litle_portafolio">
             <h2>Portafolio</h2>
     </div>
@@ -114,21 +128,23 @@
         <img src="/Imágenes/ejemplo 2.png" alt="">
         <img src="/Imágenes/ejemplo 3.png" alt="">
 </div>
-<div class="contacto">
+<div class="contacto" id="contact">
             <div class="litle_contacto">
                 <h2>Xontacto</h2>
             </div>
+            <div class="img_cont">
             <img src="/Íconos/phone.svg" alt="">
             <h6>Numero celular</h6>
             <p>5526895424</p>
             <img src="/Íconos/mail 1.svg" alt="">
             <h6>Email</h6>
             <p>examplet@correco.com</p>
+        </div>
 </div>
   
 
 
  
-    
+<script src="/main.js"></script>    
 </body>
 </html>
