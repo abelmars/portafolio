@@ -13,9 +13,7 @@
     
     }
 
-/*img{
-    width: 100%;
-    display: block;}*/
+
     
 
 .ff-rubik-45 {
@@ -74,17 +72,6 @@
        
 
 }
-.img__mobile{
-    
-   
-   
-   
-}
-
-.img__mdesktop{
-   
- 
-}
 
 .home{
     min-height: 100vh;
@@ -122,6 +109,16 @@
 
 }
 
+.ico__social{
+ display: flex;
+ justify-content: center;
+ gap: 3rem;
+margin-top: 3rem;
+ 
+
+ 
+    
+}
 
 .habilidades{
    display: flex;
@@ -135,6 +132,7 @@
     gap: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 
 }
  
@@ -143,17 +141,6 @@
     
     
    
-
-
-
-.abouts {
-    display: grid;
-    
-
-   
-    
-
-}
 
 .about{
     margin-left: 8rem;
@@ -164,20 +151,15 @@
     
     
     
+    
 
     
     
 
-}
-
-.litle_about{
-
-   
-    
-   
 }
 
 .about p{
+    padding-top: 3rem;
     margin: auto;
    
     
@@ -201,12 +183,6 @@ flex-direction: column;
     margin-left: 10%;
     margin-right: 35%;
 }
-
-  
-.age_exper{
-    
-    
-}    
     
    
     
