@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+/*font-family: 'Rubik', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color: #020403;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    
+    }
+
+/*img{
+    width: 100%;
+    display: block;}*/
+    
+
+.ff-rubik-45 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px; 
+       
+
+}
+
+.ff-rubik-18 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px; 
+       
+
+}
+.ff-rubik-18 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px; 
+       
+
+}
+
+.ff-rubik-16 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px; 
+       
+
+}
+
+.ff-rubik-semibold150 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 150px; 
+    font-weight: bold;
+       
+
+}
+.ff-rubik-semibold40 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px; 
+    font-weight: bold;
+       
+
+}
+
+.ff-rubik-semibold50 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px; 
+    font-weight: ;
+       
+
+}
+.ff-rubik-medium25 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px; 
+    font-weight:medium;
+       
+
+}
+.img__mobile{
+    
+   
+   
+   
+}
+
+.img__mdesktop{
+   
+ 
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+.home h1{
+    
+    font-size: 4rem;    
+
+    
+    
+    
+    
+    
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+} 
+ 
+.menu{
+    display: flex;
+    width: 70%;
+    padding-top: 50px;
+    margin-left: 30%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+
+.habilidades{
+   display: flex;
+   flex-direction: column;
+   gap: 5rem;
+
+    
+}
+.ico_habi{
+    padding: 0 20%;
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+ 
+    
+    
+    
+    
+   
+
+
+
+.abouts {
+    display: grid;
+    
+
+   
+    
+
+}
+
+.about{
+    margin-left: 8rem;
+    margin-bottom: 8rem;
+    
+    margin-right: 5rem;
+    
+    
+    
+    
+
+    
+    
+
+}
+
+.litle_about{
+
+   
+    
+   
+}
+
+.about p{
+    margin: auto;
+   
+    
+    
+}
+
+    
+
+.experiencia{
+display:flex;
+flex-direction: column;
+
+
+}
+.content_expe{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    padding-left: 300px;
+    margin-left: 10%;
+    margin-right: 35%;
+}
+
+  
+.age_exper{
+    
+    
+}    
+    
+   
+    
+    
+
+
+
+.contacto {
+    display: flex;
+  
+}
